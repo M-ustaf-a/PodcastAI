@@ -7,6 +7,7 @@ import { PodcastProps, ProfileCardProps } from "@/types";
 
 import LoaderSpinner from "./LoaderSpinner";
 import { Button } from "./ui/button";
+import { UserButton } from "@clerk/nextjs";
 
 const ProfileCard = ({
   podcastData,
@@ -39,6 +40,9 @@ const ProfileCard = ({
 
   return (
     <div className="mt-6 flex flex-col gap-6 max-md:items-center md:flex-row">
+      <div className="flex flex-col ml-52">
+      <UserButton/>
+      </div>
       <Image
         src={imageUrl}
         width={250}

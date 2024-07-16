@@ -169,4 +169,17 @@ html {
 .cl-userPreview{
   color: rgb(3, 139, 139);
 }
+.lucide-user{
+  color: rgb(0, 0, 0);
+  /* border: #15171c; */
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+}
+/* .data-\[state\=open\]\:duration-500[data-state=open]{
+  width: 30%;
+} */
+.transition-opacity{
+  display: none;
+}
 

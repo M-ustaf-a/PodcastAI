@@ -189,7 +189,7 @@ async function onSubmit(data: z.infer<typeof formSchema>){
                 />
 
               <div className="mt-10 w-full">
-                <Button type="submit" className="text-16 w-full bg-teal-600 py-4 font-extrabold text-white-1 transition-all duration-500 hover:bg-black-1">
+                <Button type="submit" className="text-16 w-full bg-teal-600 py-4 font-extrabold text-white-1 transition-all duration-500 hover:bg-black-1 mb-7">
                   {isSubmitting ? (
                     <>
                       Submitting
