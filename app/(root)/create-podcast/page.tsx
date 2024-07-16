@@ -122,7 +122,7 @@ async function onSubmit(data: z.infer<typeof formSchema>){
                 <FormItem className="flex flex-col gap-2.5">
                   <FormLabel className="text-16 font-bold text-white-1">Title</FormLabel>
                   <FormControl>
-                    <Input className="input-class focus-visible:ring-offset-orange-1" placeholder="Pro Podcast" {...field} />
+                    <Input className="input-class focus-visible:ring-offset-teal-600" placeholder="Pro Podcast" {...field} />
                   </FormControl>
                   <FormMessage className="text-white-1" />
                 </FormItem>
@@ -135,12 +135,12 @@ async function onSubmit(data: z.infer<typeof formSchema>){
               </Label>
 
               <Select onValueChange={(value) => setVoiceType(value)}>
-                <SelectTrigger className={cn('text-16 w-full border-none bg-black-1 text-gray-1 focus-visible:ring-offset-orange-1')}>
+                <SelectTrigger className={cn('text-16 w-full border-none bg-black-1 text-gray-1 focus-visible:ring-teal-600')}>
                   <SelectValue placeholder="Select AI Voice" className="placeholder:text-gray-1 " />
                 </SelectTrigger>
-                <SelectContent className="text-16 border-none bg-black-1 font-bold text-white-1 focus:ring-orange-1">
+                <SelectContent className="text-16 border-none bg-black-1 font-bold text-white-1 focus:ring-teal-600">
                   {voiceCategories.map((category) => (
-                    <SelectItem key={category} value={category} className="capitalize focus:bg-orange-1">
+                    <SelectItem key={category} value={category} className="capitalize focus:bg-teal-600">
                       {category}
                     </SelectItem>
                   ))}
@@ -162,7 +162,7 @@ async function onSubmit(data: z.infer<typeof formSchema>){
                 <FormItem className="flex flex-col gap-2.5">
                   <FormLabel className="text-16 font-bold text-white-1">Description</FormLabel>
                   <FormControl>
-                    <Textarea className="input-class focus-visible:ring-offset-orange-1" placeholder="Write a short podcast description" {...field} />
+                    <Textarea className="input-class focus-visible:ring-offset-teal-600" placeholder="Write a short podcast description" {...field} />
                   </FormControl>
                   <FormMessage className="text-white-1" />
                 </FormItem>
@@ -189,7 +189,7 @@ async function onSubmit(data: z.infer<typeof formSchema>){
                 />
 
               <div className="mt-10 w-full">
-                <Button type="submit" className="text-16 w-full bg-orange-1 py-4 font-extrabold text-white-1 transition-all duration-500 hover:bg-black-1">
+                <Button type="submit" className="text-16 w-full bg-teal-600 py-4 font-extrabold text-white-1 transition-all duration-500 hover:bg-black-1">
                   {isSubmitting ? (
                     <>
                       Submitting

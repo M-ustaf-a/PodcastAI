@@ -9,7 +9,7 @@
 }
 
 html {
-  background-color: #080808;
+  background-color: #e7e5e5;
 }
 
 @layer utilities {
@@ -120,13 +120,15 @@ html {
   filter: invert(1);
 }
 .cl-internal-b3fm6y {
-  background: #f97535;
+  background: rgb(3, 139, 139);
 }
 .cl-formButtonPrimary {
-  background: #f97535;
+  background: rgb(3, 139, 139);
+  border-radius: 5px;
+  height: 5vh;
 }
 .cl-footerActionLink {
-  color: #f97535;
+  color: rgb(3, 139, 139);
 }
 .cl-headerSubtitle {
   color: #c5d0e6;
@@ -143,5 +145,28 @@ html {
   color: white;
 }
 .cl-internal-wkkub3 {
-  color: #f97535;
+  color: rgb(3, 139, 139);
 }
+.cl-internal-16rjnjd{
+  @apply hidden;
+}
+.cl-internal-2iusy0{
+ border-radius: 10px;
+}
+.cl-internal-1una0r3{
+  background-color: rgb(3, 139, 139);
+}
+.left_sidebar{
+  background-color: rgb(3, 139, 139);
+  width: 100px;
+}
+.right_sidebar{
+  background-color: rgb(3, 139, 139);
+}
+.cl-button{
+  color: rgb(3, 139, 139);
+}
+.cl-userPreview{
+  color: rgb(3, 139, 139);
+}
+

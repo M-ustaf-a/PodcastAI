@@ -90,7 +90,7 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
           AI Prompt to generate Thumbnail
         </Label>
         <Textarea 
-          className="input-class font-light focus-visible:ring-offset-orange-1"
+          className="input-class font-light focus-visible:ring-offset-teal-600"
           placeholder='Provide text to generate thumbnail'
           rows={5}
           value={imagePrompt}
@@ -98,7 +98,7 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
         />
       </div>
       <div className="w-full max-w-[200px]">
-      <Button type="submit" className="text-16 bg-orange-1 py-4 font-bold text-white-1" onClick={generateImage}>
+      <Button type="submit" className="text-16 bg-teal-600 py-4 font-bold text-white-1" onClick={generateImage}>
         {isImageLoading ? (
           <>
             Generating
@@ -122,7 +122,7 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
           </div>
         )}
         <div className='flex flex-col items-center gap-1'>
-          <h2 className='text-12 font-bold text-orange-1'>
+          <h2 className='text-12 font-bold text-teal-600'>
             click to upload
           </h2>
           <p className='text-12 font-normal text-gray-1'>SVG, PNG, JPG, or GIF(max. 1080x1080px)</p>
