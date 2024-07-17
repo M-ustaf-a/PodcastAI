@@ -8,7 +8,7 @@ const Header = ({headerTitle, titleClassName}: {headerTitle?: string; titleClass
         {headerTitle?(
             <h1 className={cn('text-18 font-bold text-white-1', titleClassName)}>{headerTitle}</h1>
         ):<div/>}
-        <Link href='/discover' className='text-16 font-semibold text-teal-600'>See all</Link>
+        <Link href='/discover' className='text-16 font-semibold text-teal-900'>See all</Link>
     </header>
   )
 }

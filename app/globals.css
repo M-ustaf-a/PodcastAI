@@ -148,26 +148,27 @@ html {
   color: rgb(3, 139, 139);
 }
 .cl-internal-16rjnjd{
-  @apply hidden;
+  @apply hidden; 
 }
 .cl-internal-2iusy0{
  border-radius: 10px;
+ color: #c5d0e6;
 }
 .cl-internal-1una0r3{
   background-color: rgb(3, 139, 139);
 }
 .left_sidebar{
-  background-color: rgb(3, 139, 139);
+  background-color: #00897B;
   width: 100px;
 }
 .right_sidebar{
-  background-color: rgb(3, 139, 139);
+  background-color: #00897B;
 }
 .cl-button{
-  color: rgb(3, 139, 139);
+  color: #00897B;
 }
 .cl-userPreview{
-  color: rgb(3, 139, 139);
+  color: #00897B;
 }
 .lucide-user{
   color: rgb(0, 0, 0);
